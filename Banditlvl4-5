@@ -1,0 +1,10 @@
+# Bandit 4 → 5
+
+Goal: find the password. It's the only human-readable file in the `inhere` directory.
+
+`cd inhere` and `ls` — a bunch of files named `-file00` through `-file09`. Can't tell which one is readable just by looking.
+
+Use the `file` command to check each one's type. The `./*` matches every file in the folder, and the `./` prefix stops the shell from treating the dash-prefixed names as options:
+
+```bash
+cat ./-file07
