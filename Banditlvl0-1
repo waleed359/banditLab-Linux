@@ -10,4 +10,4 @@ Once in, ls to see what's around. There's one file called readme. cat readme pri
 
 Notes to self: lowercase -p for ssh port, uppercase -P is scp — mixed those up once. Save every password locally as you go, they don't carry over if you have to restart.
 
-![image alt](https://github.com/waleed359/banditLab-Linux/blob/e44f7d9c747f491446c64ab88234f6745bf63620/Screenshot%202026-08-14%20155500.png)
+Check README Bandit0-1 File to see the imahe
