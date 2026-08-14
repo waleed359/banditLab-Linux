@@ -1,0 +1,11 @@
+# Bandit 8 → 9
+
+Goal: find the password in `data.txt`. It's the only line that appears exactly once — every other line is repeated.
+
+`uniq` can filter for lines that appear only once with the `-u` flag, but it only compares lines that are next to each other. So the file has to be sorted first to group all the duplicates together:
+
+```bash
+sort data.txt | uniq -u
+The pipe (|) sends the sorted output straight into uniq. That prints the one non-repeating line — the password.
+
+Notes to self: uniq on its own removes adjacent duplicates. -u keeps only unique lines, -d keeps only duplicated lines, -c adds a count. Always sort first unless the file is already ordered.
