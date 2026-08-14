@@ -9,4 +9,5 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 Once in, ls to see what's around. There's one file called readme. cat readme prints the password. Copy it somewhere safe — keep it in a local notes file, not this repo.
 
 Notes to self: lowercase -p for ssh port, uppercase -P is scp — mixed those up once. Save every password locally as you go, they don't carry over if you have to restart.
-https://github.com/waleed359/banditLab-Linux/blob/e44f7d9c747f491446c64ab88234f6745bf63620/Screenshot%202026-08-14%20155500.png
+
+![image alt](https://github.com/waleed359/banditLab-Linux/blob/e44f7d9c747f491446c64ab88234f6745bf63620/Screenshot%202026-08-14%20155500.png)
