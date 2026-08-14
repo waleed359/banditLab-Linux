@@ -1,0 +1,18 @@
+# Bandit 9 → 10
+
+Goal: find the password in `data.txt` — one of the few readable strings, preceded by several `=` characters.
+
+`cat data.txt` prints mostly garbage — it's a binary file with only bits of readable text mixed in.
+
+`strings` extracts just the printable sequences (default is 4+ characters in a row):
+
+```bash
+strings data.txt
+
+Still a lot of output. Pipe it into grep to narrow down to lines with the equals signs:
+
+strings data.txt | grep ===
+
+That prints a few lines, one of which has the password right after the = characters.
+
+Notes to self: strings is the go-to for peeking inside binaries without opening them in a hex editor. Handy for quickly checking what's in a compiled program or unknown file.
