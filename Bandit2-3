@@ -1,0 +1,12 @@
+# Bandit 2 → 3
+
+Goal: find the password for the next level. It's in a file called `spaces in this filename` in the home directory.
+
+`ls` shows the file, but `cat spaces in this filename` won't work — the shell sees five separate arguments and tries to open five different files.
+
+Wrap the name in quotes so it's treated as one thing:
+
+```bash
+cat -- "--spaces in this filename--"
+
+Check ReadME to see the image of this
