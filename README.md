@@ -27,4 +27,6 @@ This repository serves both as a study aid and as a record of my learning proces
 ## Images
 
 --Bandit 0-1
+
+
 ![image alt](https://github.com/waleed359/banditLab-Linux/blob/e44f7d9c747f491446c64ab88234f6745bf63620/Screenshot%202026-08-14%20155500.png)
