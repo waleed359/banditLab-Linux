@@ -50,3 +50,7 @@ This repository serves both as a study aid and as a record of my learning proces
 -- Bandit 5-6
 
 ![image alt](https://github.com/waleed359/banditLab-Linux/blob/270d70a7eeb8e164bd9adf48d1b1198a6f4480ba/Bandit5-6.png)
+
+-- Bandit 6-7
+
+![image alt](https://github.com/waleed359/banditLab-Linux/blob/8ca7efec84fad17f686fda029508183c3a7aa83a/Bandit6-7.png)
