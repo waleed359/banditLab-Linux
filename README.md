@@ -34,3 +34,6 @@ This repository serves both as a study aid and as a record of my learning proces
 -- Bandit 1-2
 
 ![image alt](https://github.com/waleed359/banditLab-Linux/blob/8ff7d81a7f51f7526c2ffe3752f2176e6890bc17/Bandit1-2.png)
+
+-- Bandit 2-3
+![image alt](https://github.com/waleed359/banditLab-Linux/blob/6491a4c1f1c579c43c3b3d58da85674798f07d91/Bandit2-3.png)
