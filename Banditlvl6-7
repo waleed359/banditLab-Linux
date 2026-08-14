@@ -1,0 +1,18 @@
+# Bandit 6 → 7
+
+Goal: find the password. It's somewhere on the whole server, owned by user `bandit7`, group `bandit6`, and exactly 33 bytes.
+
+Not in the home directory this time — need to search the entire filesystem starting from `/`. `find` handles all three filters at once:
+
+```bash
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+
+-- / starts the search from root
+-- -user bandit7 matches files owned by that user
+-- -group bandit6 matches files in that group
+-- -size 33c matches exactly 33 bytes
+-- 2>/dev/null sends error messages (mostly "Permission denied") to the void so the actual result isn't buried
+-- That returns one path. Cat it:
+
+cat /var/lib/dpkg/info/bandit7.password
