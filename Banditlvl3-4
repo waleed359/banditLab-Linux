@@ -1,0 +1,11 @@
+# Bandit 3 → 4
+
+Goal: find the password for the next level. It's in a hidden file in the `inhere` directory.
+
+`cd inhere` to move into the folder, then `ls` — nothing shows up. That's because hidden files on Linux start with a `.` and are skipped by default.
+
+Use `-a` to list everything, hidden files included:
+
+```bash
+ls -a
+cat ...Hidding-From-You
