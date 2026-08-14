@@ -1,0 +1,13 @@
+# Bandit 5 → 6
+
+Goal: find the password. It's under `inhere` somewhere, human-readable, exactly 1033 bytes, and not executable.
+
+`cd inhere` and `ls` shows a bunch of `maybehere` subdirectories. Too many files to check by hand.
+
+`find` handles this — filter by size and executability in one command:
+
+
+
+```bash
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
