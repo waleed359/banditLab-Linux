@@ -62,3 +62,8 @@ This repository serves both as a study aid and as a record of my learning proces
 -- Bandit 8-9
 
 ![image-alt](https://github.com/waleed359/banditLab-Linux/blob/59463b918d1b28e2ee2618949cc94452a9c7a1a0/Bandit8-9.png)
+
+-- Bandit 9-10
+
+![image-alt](https://github.com/waleed359/banditLab-Linux/blob/9701145a7b591e4d892b4720bf1813e4462f0899/Bandit%209-10.png)
+
