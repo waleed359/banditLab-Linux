@@ -1,0 +1,10 @@
+# Bandit 7 → 8
+
+Goal: find the password in `data.txt`, next to the word `millionth`.
+
+`ls` shows `data.txt`. `cat` it — it's a huge file of word/password pairs, one per line. Too much to scroll through.
+
+`grep` filters to just the line you want:
+
+```bash
+grep millionth data.txt
