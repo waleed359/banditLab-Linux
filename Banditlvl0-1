@@ -1,0 +1,11 @@
+# Bandit 0 → 1
+
+Goal: find the password for the next level. It's in a file called `readme` in the home directory.
+
+SSH into the game server (port is 2220, not the usual 22):
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+Once in, ls to see what's around. There's one file called readme. cat readme prints the password. Copy it somewhere safe — keep it in a local notes file, not this repo.
+
+Notes to self: lowercase -p for ssh port, uppercase -P is scp — mixed those up once. Save every password locally as you go, they don't carry over if you have to restart.
