@@ -1,0 +1,10 @@
+# Bandit 1 → 2
+
+Goal: find the password for the next level. It's in a file called `-` in the home directory.
+
+`ls` shows a file literally named `-`. The catch is `cat -` won't work — the dash means "read from standard input" to most commands, so it just sits there waiting.
+
+Get around it by pointing at the file with a path instead:
+
+```bash
+cat ./-
