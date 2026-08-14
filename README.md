@@ -30,3 +30,7 @@ This repository serves both as a study aid and as a record of my learning proces
 
 
 ![image alt](https://github.com/waleed359/banditLab-Linux/blob/e44f7d9c747f491446c64ab88234f6745bf63620/Screenshot%202026-08-14%20155500.png)
+
+-- Bandit 1-2
+
+![image alt](https://github.com/waleed359/banditLab-Linux/blob/8ff7d81a7f51f7526c2ffe3752f2176e6890bc17/Bandit1-2.png)
